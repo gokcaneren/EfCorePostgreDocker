@@ -1,0 +1,13 @@
+﻿version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres_c
+    restart: always
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=gokk
+      - POSTGRES_DB=efcorepostgredocker
+    ports:
+      - "5433:5432"
