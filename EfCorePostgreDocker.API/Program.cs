@@ -1,4 +1,6 @@
 using EfCorePostgreDocker.API.DataAccess.Context;
+using EfCorePostgreDocker.API.DataAccess.Repositories.Abstract;
+using EfCorePostgreDocker.API.DataAccess.Repositories.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -18,6 +20,8 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
         mg.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext))?.GetName().Name);
     });
 });
+
+builder.Services.AddScoped<IBookRepository, BookRepository>();
 
 var app = builder.Build();
 
