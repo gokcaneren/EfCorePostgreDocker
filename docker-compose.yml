@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  efcorepostgredocker.api:
+    image: ${DOCKER_REGISTRY-}efcorepostgredockerapi
+    build:
+      context: .
+      dockerfile: EfCorePostgreDocker.API/Dockerfile

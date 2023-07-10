@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aCA3wx8m0tZuhU2ZimaYNanuLso7YTSzQxjRrRXuX0FZ498hW4rjUYmk+wiAnYqM28SjWf96kHXxF7nP9nI6eQ==",
+  "dgSpecHash": "s8lQAPKWvC/aP0ZVXIoj1ts9J3Guy5QPx+lY3G9jHzCKaZ+FXfHFGxGnE6VK1IMe4Z3FBHl6+KNkMk7Rgb0edw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gok\\Desktop\\C# .NET Core\\c# proje\\EfCorePostgreDocker\\EfCorePostgreDocker.API\\EfCorePostgreDocker.API.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
